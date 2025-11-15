@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Civil & Structural Engineering Company PLLC - Professional engineering services for structures, facilities, and land development in Mesa, AZ">
-    <meta name="keywords" content="Civil Engineering, Structural Engineering, Construction, Land Development, Mesa Arizona, Engineering Services">
-    <meta name="author" content="Russell S. Johnson P.E.">
+    <meta name="description" content="Civil Structual Engineering">
+    <meta name="keywords" content="Civil, Structual, Construction, Project">
+    <meta name="author" content="Russel Johnson">
 
     <title>Civil & Structural Engineering Company PLC</title>
 
@@ -18,54 +18,18 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
 
-    <style>
-      /* Best practices: Moved inline styles to CSS classes */
-      .tm-call-label {
-        color: greenyellow;
-        font-weight: bold;
-      }
 
-      .tm-phone-link {
-        text-decoration: none;
-      }
 
-      .tm-phone-number {
-        color: orange;
-        font-weight: bold;
-      }
-
-      .tm-intro-text {
-        color: greenyellow;
-      }
-
-      .tm-engineer-name {
-        color: greenyellow;
-      }
-
-      .tm-textarea-bg {
-        background-color: #e5effa;
-      }
-
-      .tm-hours-table {
-        width: 100%;
-      }
-
-      .tm-hours-table th,
-      .tm-hours-table td {
-        padding: 0.5rem;
-        text-align: left;
-      }
-    </style>
 
 
 
   </head>
   <body>
-    <div class="container-fluid">
+    < class="container-fluid">
       <div class="row">
-          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar" role="navigation" aria-label="Main navigation">
-            <button class="navbar-toggler" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="tmMainNav">
-              <i class="fas fa-bars" aria-hidden="true"></i>
+          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
             </button>
             <div class="tm-sidebar-sticky">
               <!-- <div class="tm-brand-box"> -->
@@ -76,48 +40,44 @@
                 </div> -->
               <!-- </div> -->
 
-              <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav" role="menubar">
-                <li class="nav-item" role="none">
-                  <a href="#intro" class="nav-link active" role="menuitem" aria-current="page">
+              <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
+                <li class="nav-item">
+                  <a href="#intro" class="nav-link active">
                     <span class="d-inline-block mr-3">Intro</span>
-                    <span class="d-inline-block tm-white-rect" aria-hidden="true"></span>
+                    <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
-                <li class="nav-item" role="none">
-                  <a href="#about" class="nav-link" role="menuitem">
+                <li class="nav-item">
+                  <a href="#about" class="nav-link">
                     <span class="d-inline-block mr-3">About</span>
-                    <span class="d-inline-block tm-white-rect" aria-hidden="true"></span>
+                    <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
-                <li class="nav-item" role="none">
-                  <a href="#work" class="nav-link" role="menuitem">
+                <li class="nav-item">
+                  <a href="#work" class="nav-link">
                     <span class="d-inline-block mr-3">Work</span>
-                    <span class="d-inline-block tm-white-rect" aria-hidden="true"></span>
+                    <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
-                <li class="nav-item" role="none">
-                  <a href="#clients" class="nav-link" role="menuitem">
+                <li class="nav-item">
+                  <a href="#clients" class="nav-link">
                     <span class="d-inline-block mr-3">Clients</span>
-                    <span class="d-inline-block tm-white-rect" aria-hidden="true"></span>
+                    <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
-                <li class="nav-item" role="none">
-                  <a href="#talk" class="nav-link" role="menuitem">
+                <li class="nav-item">
+                  <a href="#talk" class="nav-link">
                     <span class="d-inline-block mr-3">Let's Talk</span>
-                    <span class="d-inline-block tm-white-rect" aria-hidden="true"></span>
+                    <span class="d-inline-block tm-white-rect"></span>
                   </a>
                 </li>
               </ul>
 
 
-              <ul class="nav flex-row tm-social-links" role="list">
-                <li class="nav-item" role="listitem">
-                  <a href="https://www.facebook.com/Civil-Structural-Engineering-Company-PLLC-101595881907173"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="nav-link tm-social-link"
-                     aria-label="Visit our Facebook page">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+              <ul class="nav flex-row tm-social-links">
+                <li class="nav-item">
+                  <a href="https://www.facebook.com/Civil-Structural-Engineering-Company-PLLC-101595881907173" target="_blank" class="nav-link tm-social-link">
+                    <i class="fab fa-facebook-f"></i>
                   </a>
                 </li>
               </ul>
@@ -147,10 +107,10 @@
              -->
 
 
-              <footer class="text-center text-white small" role="contentinfo">
+              <footer class="text-center text-white small">
                 <p class="mb--0 mb-2">Copyright 2023 Zeolite Technology</p>
                 <p class="mb-0">Design:
-                  <a rel="nofollow noopener noreferrer" href="https://zeolite.tech" class="tm-footer-link">zeolite.tech</a>
+                  <a rel="nofollow" href="https://zeolite.tech" class="tm-footer-link">zeolite.tech</a>
                 </p>
               </footer>
             </div>
@@ -165,30 +125,36 @@
                 <section id="intro" class="tm-section">
                     <div class="tm-bg-white-transparent tm-intro">
 
+                        <!-- <h2 class="tm-section-title mb-5 text-uppercase text-white"> <strong>Call (480) 234-5646</strong> </h2> -->
                         <h2 class="tm-section-title mb-5 text-uppercase">
-                          <span class="tm-call-label">Call:</span>
-                          <a href="tel:+14802345646" class="tm-phone-link" aria-label="Call us at 480-234-5646">
-                            <span class="tm-phone-number">(480) 234-5646</span>
-                          </a>
-                        </h2>
+                           <span  style="color: greenyellow; font-weight: bold;">Call:</span>
+                            <span  style="color: orange; font-weight: bold;"> (480) 234-5646</span> </h2>
 
-                        <p class="tm-intro-text">
-                          Civil Engineering for Structures, Constructed Facilities & Land Development
-                          (Grading & Drainage, Paving Plans, Site Design Development) Projects.
-                          Concrete, Steel or Wood Materials of Construction.
+                        <p style="color:greenyellow">
+                        <!-- <p class="tm-color-gray"> -->
+
+
+                        Civil Engineering for Structures, Constructed Facilities & Land Development
+                        (Grading & Drainage, Paving Plans, Site Design Development) Projects.
+                        Concrete, Steel or Wood Materials of Construction.
+
+
                         </p>
-                        <p class="mb-0 tm-engineer-name">
-                          Russell S. Johnson P.E.
+                        <!-- <p class="mb-0 tm-color-gray"> -->
+                        <p class="mb-0" style="color:greenyellow">
+
+                         Russell S. Johnson P.E.
                         </p>
                     </div>
                 </section>
             </div>
+          </div>
 
           <div class="tm-section-wrap bg-white">
             <section id="about" class="row tm-section">
               <div class="col-xl-6">
                 <div class="tm-section-half">
-                    <div><i class="fas fa-6x fa-pencil-ruler mb-5 tm-section-icon" aria-hidden="true"></i></div>
+                    <div><i class="fas fa-6x fa-pencil-ruler  mb-5 tm-section-icon"></i></div>
                     <h2 class="tm-section-title tm-color-primary mb-5">About Us</h2>
                     <p class="mb-5">
                     Civil & Structural Engineering In Mesa, AZ Count on the team at Civil & Structural Engineering Company PLLC to help with all your projects. We are happy to assist with industrial, commercial, institutional and other projects engineering.
@@ -206,7 +172,7 @@ With two Master’s degrees, 30 years of experience, and an MIT Alum, you know t
               </div>
               <div class="col-xl-6">
                 <div class="tm-section-half">
-                    <div><i class="far fa-6x fa-building mb-5 tm-section-icon" aria-hidden="true"></i></div>
+                    <div><i class="far fa-6x fa-building mb-5 tm-section-icon"></i></div>
                     <h2 class="tm-section-title tm-color-primary mb-5">Company Profile</h2>
                     <p class="mb-8">
 
@@ -243,6 +209,15 @@ With two Master’s degrees, 30 years of experience, and an MIT Alum, you know t
 
 
                      </ul>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+  <!-- <p>
+ Contact us today!
+  </p>
+                     -->
 
                 </div>
               </div>
@@ -259,81 +234,81 @@ With two Master’s degrees, 30 years of experience, and an MIT Alum, you know t
                           <div class="tm-gallery">
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/01.png" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/01.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/01.png" aria-label="View larger image of project 1">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/01.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/02.jpg" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/02.jpg" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/02.png" aria-label="View larger image of project 2">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/02.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/03.png" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/03.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/03.png" aria-label="View larger image of project 3">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/03.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/04.png" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/04.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/04.png" aria-label="View larger image of project 4">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/04.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/05.png" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/05.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/05.png" aria-label="View larger image of project 5">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/05.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/06.png" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/06.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/06.png" aria-label="View larger image of project 6">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/06.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/07.png" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/07.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/07.png" aria-label="View larger image of project 7">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/07.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/08.png" alt="Civil and structural engineering project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/08.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/08.png" aria-label="View larger image of project 8">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/08.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
@@ -358,83 +333,83 @@ With two Master’s degrees, 30 years of experience, and an MIT Alum, you know t
                           <div class="tm-gallery">
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/wed_1.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/wed_1.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_1.png" aria-label="View larger image of civil improvement project 1">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_1.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/wed_2.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/wed_2.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_2.png" aria-label="View larger image of civil improvement project 2">View more</a>
-                                </figcaption>
-                              </figure>
-                            </div>
-
-                            <div class="tm-gallery-item">
-                              <figure class="effect-bubba">
-                                <img src="img/gallery/wed_3.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
-                                <figcaption>
-                                  <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_3.png" aria-label="View larger image of civil improvement project 3">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_2.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
 
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/wed_4.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/wed_3.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_4.png" aria-label="View larger image of civil improvement project 4">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_3.png">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="img/gallery/wed_4.png" alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>Russ<span>Johnson</span></h2>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_4.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/wed_5.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/wed_5.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_5.png" aria-label="View larger image of civil improvement project 5">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_5.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/wed_6.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/wed_6.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_6.png" aria-label="View larger image of civil improvement project 6">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_6.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/wed_7.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/wed_7.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_7.png" aria-label="View larger image of civil improvement project 7">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_7.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
                             <div class="tm-gallery-item">
                               <figure class="effect-bubba">
-                                <img src="img/gallery/wed_8.png" alt="Civil improvements project example" class="img-fluid" loading="lazy">
+                                <img src="img/gallery/wed_8.png" alt="Our Work Image" class="img-fluid">
                                 <figcaption>
                                   <h2>Russ<span>Johnson</span></h2>
-                                  <p>Civil and Structural Engineering.</p>
-                                  <a href="img/gallery/large/wed_8.png" aria-label="View larger image of civil improvement project 8">View more</a>
+                                  <p>Civil and Structual Engineering.</p>
+                                  <a href="img/gallery/large/wed_8.png">View more</a>
                                 </figcaption>
                               </figure>
                             </div>
@@ -479,48 +454,23 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
                           <h2 class="tm-color-primary tm-section-title mb-4">Working Hours</h2>
 
 
- <div class="row">
+ <div class="row ">
+
               <div class="col-xl-6">
-                <table class="tm-hours-table" role="table" aria-label="Business hours">
-                  <thead>
-                    <tr>
-                      <th scope="col">Day</th>
-                      <th scope="col">Hours</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Monday</td>
-                      <td>8:00 AM – 4:00 PM</td>
-                    </tr>
-                    <tr>
-                      <td>Tuesday</td>
-                      <td>8:00 AM – 4:00 PM</td>
-                    </tr>
-                    <tr>
-                      <td>Wednesday</td>
-                      <td>8:00 AM – 4:00 PM</td>
-                    </tr>
-                    <tr>
-                      <td>Thursday</td>
-                      <td>8:00 AM – 4:00 PM</td>
-                    </tr>
-                    <tr>
-                      <td>Friday</td>
-                      <td>8:00 AM – 4:00 PM</td>
-                    </tr>
-                    <tr>
-                      <td>Saturday</td>
-                      <td>8:00 AM – 2:00 PM</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+<table>
+  <tr> <td>  Monday </td>   <td>	8:00 AM	 – 	4:00 PM  </td>  </tr>
+  <tr> <td>  Tuesday </td>   <td>	8:00 AM	 – 	4:00 PM  </td>  </tr>
+  <tr> <td>  Wednesday &nbsp; </td>   <td>	8:00 AM	 – 	4:00 PM  </td>  </tr>
+  <tr> <td>  Thursday </td>   <td>	8:00 AM	 – 	4:00 PM  </td>  </tr>
+  <tr> <td>  Friday </td>   <td>	8:00 AM	 – 	4:00 PM  </td>  </tr>
+  <tr> <td>  Saturday </td>   <td>	8:00 AM	 – 	2:00 PM  </td>  </tr>
+</table>
+ </div>
 
 
               <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrapxxx">
-                 <img src="img/MIT.PNG" alt="MIT logo - Massachusetts Institute of Technology" class="img-fluid tm-client-img" loading="lazy" />
-              </div>
+                 <img src="img/MIT.PNG" alt="MIT Image" class="img-fluid tm-client-img" />
+                </div>
 
               <!-- <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap">
 
@@ -535,11 +485,8 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
  <div class="row tm-clients-images">
                       <!--      <div class="col-xl-3 col-lg-6 col-md-4 col-sm-6 tm-img-wrap"> -->
                         <div class="col-6 tm-img-wrap">
-                          <a href="https://civil-structural-engineering-company-pllc.business.site/#summary"
-                             target="_blank"
-                             rel="noopener noreferrer"
-                             aria-label="Visit our Google Business profile">
-                            <img src="img/client-2.png" alt="Google Business profile link" class="img-fluid tm-client-img" loading="lazy" />
+                          <a href="https://civil-structural-engineering-company-pllc.business.site/#summary"  target="_blank">
+                            <img src="img/client-2.png" alt="Client Image" class="img-fluid tm-client-img" />
                           </a>
                         </div>
                       </div>
@@ -618,20 +565,15 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
 
 
                         </p>
-                        <address class="mb-3">
-                          <p>
-                            <strong>Email:</strong>
-                            <a href="mailto:bizsun2010@yahoo.com" aria-label="Send email to bizsun2010@yahoo.com">bizsun2010@yahoo.com</a>
-                          </p>
-                          <p>
-                            <strong>Mobile:</strong>
-                            <a href="tel:+14802345646" aria-label="Call mobile number 480-234-5646">+1(480) 234-5646</a>
-                          </p>
-                          <p>
-                            <strong>Office:</strong>
-                            <a href="tel:+14806267571" aria-label="Call office number 480-626-7571">+1(480) 626-7571</a>
-                          </p>
-                        </address>
+                        <p class="mb-3">
+                           Email:
+                         <a href="mailto:bizsun2010@yahoo.com">bizsun2010@yahoo.com </a>
+                         <br>
+
+                          Mobile: +1(480) 234-5646 <br>
+
+                          Office: +1(480) 626-7571 <br>
+                        </p>
                     </div>
                   </div>
                 </div>
@@ -642,64 +584,45 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
 
 
 
-                      <form action="https://formspree.io/f/manajdvn" method="POST" class="tm-contact-form" novalidate aria-label="Contact form">
+                      <form action="https://formspree.io/f/manajdvn" method="POST" class="tm-contact-form">
+
+
                         <div class="form-group">
-                          <label for="phone">
-                            Contact Number
-                            <input type="tel"
-                                   id="phone"
-                                   name="phone"
-                                   class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
-                                   placeholder="232-444-5555"
-                                   required
-                                   aria-required="true" />
+                          <label>
+                            <input name="phone"
+                              class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
+                              placeholder="Contact Number" required="" />
+                          </label>
+                        </div>
+
+
+                        <div class="form-group">
+                          <label>
+                            <input  name="name"
+                              class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
+                              placeholder="Your Name" required="" />
+                          </label>
+                        </div>
+
+
+                        <div class="form-group">
+                          <label>
+                            <input type="email" name="email"
+                              class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
+                              placeholder="Your Email" required="" />
                           </label>
                         </div>
 
                         <div class="form-group">
-                          <label for="name">
-                            Your Name
-                            <input type="text"
-                                   id="name"
-                                   name="name"
-                                   class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
-                                   placeholder="John Brown"
-                                   required
-                                   aria-required="true"
-                                   minlength="2" />
-                          </label>
-                        </div>
-
-                        <div class="form-group">
-                          <label for="email">
-                            Your Email
-                            <input type="email"
-                                   id="email"
-                                   name="email"
-                                   class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
-                                   placeholder="johnbrown@gmail.com"
-                                   required
-                                   aria-required="true"
-                                   autocomplete="email" />
-                          </label>
-                        </div>
-
-                        <div class="form-group">
-                          <label for="message">
-                            Scope of Work Request Description
-                            <textarea rows="4"
-                                      id="message"
-                                      name="message"
-                                      class="form-control rounded-20 border-top-0 border-right-0 border-left-0 tm-textarea-bg"
-                                      placeholder="Short description of work request"
-                                      required
-                                      aria-required="true"
-                                      minlength="10"></textarea>
+                          <label>
+                            <textarea rows="4" name="message" style="background-color: #e5effa;"
+                              class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
+                              placeholder="Scope of work request description" required=""></textarea>
                           </label>
                         </div>
 
                         <div class="form-group mb-0">
-                          <button type="submit" class="btn rounded-20 d-block ml-auto btn-info" aria-label="Submit contact form">
+                          <button type="submit" class="btn rounded-20 d-block ml-auto btn-info">
                             Send
                           </button>
                         </div>
@@ -753,4 +676,3 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
                         </div>
                       </form>
          -->
-C
