@@ -642,7 +642,7 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
 
 
 
-                      <form action="https://formspree.io/f/manajdvn" method="POST" class="tm-contact-form" novalidate aria-label="Contact form">
+                      <form id="my-form" action="https://formspree.io/f/manajdvn" method="POST" class="tm-contact-form" novalidate aria-label="Contact form">
                         <div class="form-group">
                           <label for="phone">
                             Contact Number
@@ -702,6 +702,7 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
                           <button type="submit" class="btn rounded-20 d-block ml-auto btn-info" aria-label="Submit contact form">
                             Send
                           </button>
+                          <p id="my-form-status"></p>
                         </div>
                       </form>
 
@@ -721,6 +722,40 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
     <script src="slick/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/templatemo-scripts.js"></script>
+
+<script>
+  var form = document.getElementById("my-form");
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Thanks for your submission!";
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Oops! There was a problem submitting your form"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>
+
   </body>
 </html>
 
