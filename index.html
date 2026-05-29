@@ -755,6 +755,7 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
                       <form action="https://api.staticforms.dev/submit" method="POST" class="tm-contact-form" aria-label="Contact form">
                         <input type="hidden" name="apiKey" value="sf_2cfeb40ce43c7e9ca63a81e4" />
                         <input type="hidden" name="subject" value="Russ Johnson submission" />
+                        <input type="hidden" name="redirectTo" value="thank-you" />
 
                         <div class="form-group">
                           <label for="name">
@@ -833,9 +834,6 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
       if (response.ok) {
         status.innerHTML = "Thanks for your submission!";
         form.reset()
-        setTimeout(() => {
-          window.location.href = '/';
-        }, 2500);
       } else {
         response.json().then(data => {
           if (Object.hasOwn(data, 'errors')) {
