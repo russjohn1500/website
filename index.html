@@ -735,12 +735,8 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
                             <a href="mailto:bizsun2010@yahoo.com" aria-label="Send email to bizsun2010@yahoo.com">bizsun2010@yahoo.com</a>
                           </p>
                           <p>
-                            <strong>Mobile:</strong>
+                            <strong>Phone:</strong>
                             <a href="tel:+14802345646" aria-label="Call mobile number 480-234-5646">+1(480) 234-5646</a>
-                          </p>
-                          <p>
-                            <strong>Office:</strong>
-                            <a href="tel:+14806267571" aria-label="Call office number 480-626-7571">+1(480) 626-7571</a>
                           </p>
                           <p>
                             <strong>Service Area:</strong> Mesa, Phoenix, and throughout Arizona
@@ -756,59 +752,43 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
 
 
 
-                      <form id="my-form" action="https://formspree.io/f/manajdvn" method="POST" class="tm-contact-form" novalidate aria-label="Contact form">
+                      <form action="https://api.staticforms.dev/submit" method="POST" class="tm-contact-form" aria-label="Contact form">
+                        <input type="hidden" name="apiKey" value="sf_2cfeb40ce43c7e9ca63a81e4" />
+                        <input type="hidden" name="subject" value="Russ Johnson submission" />
+
                         <div class="form-group">
-                          <label for="phone">
-                            Contact Number
-                            <input type="tel"
-                                   id="phone"
-                                   name="phone"
+                          <label for="name">
+                            Name
+                            <input type="text"
+                                   id="name"
+                                   name="name"
                                    class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
-                                   placeholder="232-444-5555"
                                    required
                                    aria-required="true" />
                           </label>
                         </div>
 
                         <div class="form-group">
-                          <label for="name">
-                            Your Name
-                            <input type="text"
-                                   id="name"
-                                   name="name"
-                                   class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
-                                   placeholder="John Brown"
-                                   required
-                                   aria-required="true"
-                                   minlength="2" />
-                          </label>
-                        </div>
-
-                        <div class="form-group">
                           <label for="email">
-                            Your Email
+                            Email
                             <input type="email"
                                    id="email"
                                    name="email"
                                    class="form-control rounded-20 border-top-0 border-right-0 border-left-0"
-                                   placeholder="johnbrown@gmail.com"
                                    required
-                                   aria-required="true"
-                                   autocomplete="email" />
+                                   aria-required="true" />
                           </label>
                         </div>
 
                         <div class="form-group">
                           <label for="message">
-                            Scope of Work Request Description
+                            Message
                             <textarea rows="4"
                                       id="message"
                                       name="message"
                                       class="form-control rounded-20 border-top-0 border-right-0 border-left-0 tm-textarea-bg"
-                                      placeholder="Short description of work request"
                                       required
-                                      aria-required="true"
-                                      minlength="10"></textarea>
+                                      aria-required="true"></textarea>
                           </label>
                         </div>
 
@@ -816,7 +796,6 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
                           <button type="submit" class="btn rounded-20 d-block ml-auto btn-info" aria-label="Submit contact form">
                             Send
                           </button>
-                          <p id="my-form-status"></p>
                         </div>
                       </form>
 
