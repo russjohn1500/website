@@ -833,6 +833,9 @@ And Many Other Individuals Or Groups Looking For An Experienced Professional For
       if (response.ok) {
         status.innerHTML = "Thanks for your submission!";
         form.reset()
+        setTimeout(() => {
+          window.location.href = '/';
+        }, 2500);
       } else {
         response.json().then(data => {
           if (Object.hasOwn(data, 'errors')) {
