@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /webfonts/
+Allow: /slick/
+
+Disallow: /old/
+Disallow: /mail_handler.php
+Disallow: /mail_handler-copy.php
+
+Sitemap: https://civilstructuralengineers.com/sitemap.xml
